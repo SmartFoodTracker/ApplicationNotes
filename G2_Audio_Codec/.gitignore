@@ -1,0 +1,56 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+
+# Quartus, Qsys, Eclipse
+*.bak
+*.rpt
+db/*
+incremental_db/*
+output_files/*
+simulation/*
+software/.metadata/*
+software/*/.settings/*
+sopc_builder_log.txt
+*.sopcinfo
+*.jdi
+*.map
+*.objdump
+*.force_relink
+software/*/obj/*
+hardware/niosII_system/*
+hardware/.qsys_edit/*
+hardware/niosII_system.bsf
+hardware/niosII_system.cmp
+hardware/niosII_system.html
+*.qws
